@@ -1,0 +1,44 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@babel/preset-react": "^7.12.10",
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14",
+        "resolve-url-loader": "^3.1.0",
+        "sass": "^1.32.4",
+        "sass-loader": "^8.0.2"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "1.2.31",
+        "@fortawesome/free-brands-svg-icons": "5.15.0",
+        "@fortawesome/free-regular-svg-icons": "5.15.0",
+        "@fortawesome/free-solid-svg-icons": "5.15.0",
+        "@fortawesome/react-fontawesome": "0.1.11",
+        "@inertiajs/inertia": "^0.8.2",
+        "@inertiajs/inertia-react": "^0.5.1",
+        "@inertiajs/progress": "^0.2.4",
+        "@popperjs/core": "^2.6.0",
+        "bootstrap": "^5.0.0-beta1",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-hook-form": "^6.14.1",
+        "styled-components": "^5.2.1",
+        "reactstrap": "8.9.0",
+        "reactstrap-confirm": "^1.2.0",
+        "react-input-mask": "2.0.4",
+        "react-bootstrap-table-next": "3.3.5",
+        "react-bootstrap-table2-paginator": "2.1.2",
+        "react-bootstrap-table2-toolkit": "2.1.3"
+    }
+}
